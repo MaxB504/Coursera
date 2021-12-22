@@ -1,0 +1,28 @@
+/*Base styles*/
+
+
+/*Mobile*/
+@media(max-width: 767px )
+{
+section{
+	width:100%;
+}
+}
+/*Tablet*/
+@media(min-width: 768px ) and (max-width: 991px)
+{
+	section.width50{
+		width: 50%;
+	}
+	section.width100{
+		width: 100%;
+	}
+}
+
+/*Desktop*/
+@media(min-width: 992px )
+{
+	section{
+		width:33.33%;
+	}
+}
