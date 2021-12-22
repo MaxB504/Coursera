@@ -1,5 +1,7 @@
 /*Base styles*/
-
+section{
+	float:left;
+}
 
 /*Mobile*/
 @media(max-width: 767px )
