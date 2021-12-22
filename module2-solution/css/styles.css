@@ -1,8 +1,15 @@
 /*Base styles*/
-section{
-	float:left;
+*{
+	box-sizing:border-box;
 }
 
+section{
+	background-color: #A52A2A;
+	float:left;
+}
+.row{
+	width: 100%;
+}
 /*Mobile*/
 @media(max-width: 767px )
 {
