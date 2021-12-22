@@ -3,27 +3,36 @@
 	box-sizing:border-box;
 }
 
-section{
-	background-color: #A52A2A;
+div{
 	float:left;
+	padding: 2px;
+
 }
 .row{
 	width: 100%;
+	background-color: #A52A2A;
+
+}
+.divTitle{
+	position: relative;
+	left:80%;
+	clear: both;
+
 }
 /*Mobile*/
 @media(max-width: 767px )
 {
-section{
+div{
 	width:100%;
 }
 }
 /*Tablet*/
 @media(min-width: 768px ) and (max-width: 991px)
 {
-	section.width50{
+	div.widthMD50{
 		width: 50%;
 	}
-	section.width100{
+	div.widthMD100{
 		width: 100%;
 	}
 }
@@ -31,7 +40,7 @@ section{
 /*Desktop*/
 @media(min-width: 992px )
 {
-	section{
+	div.widthLG33{
 		width:33.33%;
 	}
 }
