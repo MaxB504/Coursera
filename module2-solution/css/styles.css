@@ -1,46 +1,84 @@
 /*Base styles*/
 *{
 	box-sizing:border-box;
+	  font-family: Arial, Helvetica, sans-serif;
 }
 
 div{
 	float:left;
-	padding: 2px;
 
 }
 .row{
 	width: 100%;
-	background-color: #A52A2A;
 
 }
 .divTitle{
 	position: relative;
-	left:80%;
-	clear: both;
+	left:67%;
+	top: 0px;
+	/*clear: both;*/
+	border-left: 1px solid #0a0a0a;
+	border-bottom: 1px solid #0a0a0a;
+	width: 33%;
+	padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+		font-size: 125%;
 
 }
+.menuDetails{
+	border: 1px solid #0a0a0a;
+	background-color: #999;
+	margin: 5px;
+	height: 150px;
+}
+.menuDesc {
+	padding: 10px;
+  text-align: left;
+}
+#chickenTitle{
+	background-color: #d59898;
+}
+#beefTitle{
+	background-color: #c14543;
+	color: white;
+}
+#sushiTitle{
+	background-color: #e5d198;
+}
+h1{    
+	text-align: center;
+	font-size: 175%;
+	}
+
 /*Mobile*/
 @media(max-width: 767px )
 {
 div{
-	width:100%;
+	width:97%;
 }
 }
 /*Tablet*/
 @media(min-width: 768px ) and (max-width: 991px)
 {
 	div.widthMD50{
-		width: 50%;
+		width: 48.7%;
 	}
 	div.widthMD100{
-		width: 100%;
+		width: 99%;
 	}
+	#sushiTitle{
+	left:84%;
+	
+	width: 16%;
+	
+}
 }
 
 /*Desktop*/
 @media(min-width: 992px )
 {
 	div.widthLG33{
-		width:33.33%;
+		width:32.6%;
 	}
 }
